@@ -1,0 +1,42 @@
+
+<table bgcolor=''> <tr>
+	<td width='10%' align='left'>
+		<%= link_to (image_tag 'logo.png', size: "250x100"), home_about_path%></td> 
+
+</tr></table>
+
+
+
+            
+       <!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav">
+        
+   
+       <%= link_to "Front Page ", home_about_path %>
+<%= link_to "Company Profile ", home_company_path %> 
+<%= link_to "Services Provided ", home_services_path %> 
+    <%= link_to "Litigation Support ", home_litigation_path %> 
+    <%= link_to "Professional Staff ", home_staff_path %> 
+     <%= link_to "Contact Us ", home_contact_path %> 
+    </ul>
+  </div>
+</nav>
+  
+
+</body>
+</html>
